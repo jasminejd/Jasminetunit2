@@ -1,0 +1,374 @@
+
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato';
+	line-height: 1.5;
+	color: #3a3a3a;
+  background-color: white;
+}
+
+h1 a {
+ margin-top: 0;
+ background-color: transparent;
+}
+
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+p {
+font-size: 20px;
+font-weight: 300;
+}
+
+a {
+	color: #4a4a4a;
+	text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- BEGIN NAV iphone display here ---- */
+
+
+.name {
+	font-size: 26px;
+  color: #4a4a4a;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav li {
+	background: #fff;
+}
+
+.name a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+	.main-nav a {
+		font-size: 16px;
+		color: #4a4a4a;
+		text-transform: uppercase;
+	}
+
+	.main-nav a:hover {
+		color: black;
+	}
+
+  /* ---- END NAV ---- */
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+ padding-top: 10px;
+ padding-bottom: 30px;
+ color: black;
+ background-color: #fafafa;
+ height:auto;
+ overflow: hidden;
+}
+
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.thumbnail {
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+p {
+font-size: 20px;
+}
+
+.profile-pic {
+  width: 70%;
+}
+
+.gallery {
+  border: 1px solid blue;
+}
+
+.main-footer {
+  text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intro {
+  font-size: 20px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.main-footer {
+ background-color: #fafafa;
+ padding: 30px 20px 50px 20px;
+
+}
+
+.bottom-name {
+font-size: 20px;
+float: left;
+}
+
+.bottom-nav {
+display: none;
+}
+
+.top {
+  float:right;
+}
+
+.bottom-name,
+.top {
+  margin-top: auto;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.bottom-bit {
+ border-top: 1px solid lightgrey;
+ padding: 30px 0px 50px 0px;
+ margin: 0 20px;
+}
+
+footer {
+ background-color: #fafafa;
+ }
+
+/* ---- Page Elements ---- */
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) { /* ---- this is how the content will look above this width, ipad display stuff here ---- */
+
+
+
+/* ---- BEGIN NAV  ---- */
+
+.main-header {
+padding-top: 30px;
+}
+
+
+.name {
+	font-size: 24px;
+  background-color: transparent;
+}
+
+.main-nav {
+display: inline-block;
+}
+
+.main-nav li {
+  float: left;
+  margin: 0 10px;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  background: none;
+}
+
+.bottom-name {
+	font-size: 24px;
+  background-color: transparent;
+}
+
+.bottom-name {
+  float: left;
+}
+
+.bottom-nav {
+float: right;
+}
+
+.bottom-nav, li {
+display: inline-block;
+margin-left: 10px;
+}
+
+.bottom-name,
+.bottom-nav {
+  margin-top: auto;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.top {
+  display: none;
+}
+
+
+
+
+  /* ---- END NAV  ---- */
+
+ .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.thumbnail {
+  float: left;
+  width: 50%;
+  padding: 20px 10px;
+}
+
+.profile-pic {
+  float: right;
+  width: 43%;
+}
+
+.intro {
+  float: left;
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+
+}
+
+@media (min-width: 1024px) { /* ---- this is how the content will look above this width, i.e full width ---- */
+
+/* ---- BEGIN NAV  ---- */
+
+  .main-header {
+  padding-top: 30px;
+  }
+
+  .name {
+		float: left;
+	}
+
+  .main-nav {
+		float: right;
+    padding-top: 10px;
+	}
+
+
+	.main-nav li {
+		float: left;
+		margin-left: 12px;
+    display: inline-block;
+	}
+
+  /* ---- END NAV  ---- */
+
+
+  .name a {
+  	padding: 10px 15px 10px 0;
+  	text-align: center;
+  	display: block;
+  }
+
+  .main-nav a {
+  	padding: 10px 0 10px 15px;
+  	text-align: center;
+  	display: block;
+  }
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  float: left;
+  width: 33%;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  float: right;
+  width: 43%;
+}
+
+.intro {
+  float: left;
+  width: 50%;
+  font-size: 24px;
+  text-align: left;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
