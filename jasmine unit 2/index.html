@@ -14,14 +14,17 @@
 
 <!-- start header - this is where the nav is going-->
 
-<header class="main-header">
+<header id="top" class="main-header">
   <div class="container group">
-    <h1 class="name"><a href="#">Student Name</a></h1>
+    <h1 class="name">Student Name</h1>
+    <nav>
     <ul class="main-nav">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="#top">Home</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+  </nav>
   </div>
 </header>
 
@@ -42,7 +45,7 @@
 <!-- start main - this is where the gallery stuff is -->
 
   <div class="container group">
-          <h2> Portfolio </h2>
+          <h2 id="portfolio"> Portfolio </h2>
           <div class="thumbnail">
             <img src="images/portfolio-1.png" alt="marketing page">
             <h3> Marketing Page </h3>
@@ -77,10 +80,19 @@
 
 <!-- end main-->
 
+<!-- start skills-->
+
+<div class="banner group skills">
+  <h3> Skills </h3>
+<p id="skills">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+
 <!-- start footer -->
 
 <footer>
-  <div class="main-footer group">
+  <div id="contact" class="main-footer group">
      <h3>Contact</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <p>Phone: <strong> 07XXX XXXXXX</strong></p>
@@ -88,13 +100,16 @@
   </div>
 
         <div class="bottom-bit group">
-          <h1 class="bottom-name"><a href="#">Student Name</a></h1>
+          <h1 class="bottom-name">Student Name</h1>
           <h1 class="top"><a href="#top">BACK TO TOP</a></h1>
+       <nav>
           <ul class="bottom-nav">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#top">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+       </nav>
         </div>
 
 </footer>

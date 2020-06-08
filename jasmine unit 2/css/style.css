@@ -188,6 +188,18 @@ footer {
  background-color: #fafafa;
  }
 
+
+ .skills {
+ text-align: center;
+ background-color: #fed36f;
+ padding: 30px;
+ }
+
+ .skills p {
+ font-size: 20px;
+ padding: 20px;
+ }
+
 /* ---- Page Elements ---- */
 
 
@@ -255,6 +267,16 @@ margin-left: 10px;
 
 .top {
   display: none;
+}
+
+.skills {
+text-align: center;
+background-color: #fed36f;
+padding: 30px;
+}
+
+.skills p {
+font-size: 24px;
 }
 
 
@@ -364,6 +386,17 @@ p {
   font-size: 24px;
   text-align: left;
 }
+
+.skills {
+text-align: center;
+background-color: #fed36f;
+padding: 30px;
+}
+
+.skills p {
+font-size: 24px;
+}
+
 
 .group:after {
   content: "";
