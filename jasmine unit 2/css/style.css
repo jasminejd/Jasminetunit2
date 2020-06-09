@@ -31,6 +31,7 @@ h3 {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: -10px;
+    color: #4a4a4a;
 }
 
 p {
@@ -58,7 +59,7 @@ img {
 
 .name {
 	font-size: 26px;
-  color: #4a4a4a;
+  color: #fff;
 }
 
 .name,
@@ -81,12 +82,12 @@ img {
 
 	.main-nav a {
 		font-size: 16px;
-		color: #4a4a4a;
+		color: #fff;
 		text-transform: uppercase;
 	}
 
 	.main-nav a:hover {
-		color: black;
+		color: #ffbcaa;
 	}
 
   /* ---- END NAV ---- */
@@ -98,7 +99,7 @@ img {
  padding-top: 10px;
  padding-bottom: 30px;
  color: black;
- background-color: #fafafa;
+ background-color: #f58465;
  height:auto;
  overflow: hidden;
 }
@@ -191,7 +192,7 @@ footer {
 
  .skills {
  text-align: center;
- background-color: #fed36f;
+ background-color: #f58465;
  padding: 30px;
  }
 
@@ -389,7 +390,7 @@ p {
 
 .skills {
 text-align: center;
-background-color: #fed36f;
+background-color: #f58465;
 padding: 30px;
 }
 
